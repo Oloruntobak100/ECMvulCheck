@@ -1,0 +1,107 @@
+{
+  "label": "Departments",
+  "name": "departments",
+  "prevent_duplicate": {
+    "error_message": "There is an existing department:",
+    "error_title": "Duplicate Department",
+    "condition": "OR",
+    "fields": {
+		"name":{},
+		"sbu":{
+			"skip_if_empty": 1
+		}
+	}
+  },
+  "fields": {
+    "name": "departments001",
+    "description": "departments002",
+    "head": "departments003",
+    "sbu": "departments006",
+    "pay_roll": "departments007"
+  },
+  "labels": {
+    "departments001": {
+      "field_label": "Department Name",
+      "form_field": "text",
+      "required_field": "yes",
+      "default_appearance_in_table_fields": "show",
+      "display_position": "display-in-table-row",
+      "serial_number": "",
+      "field_identifier": "name"
+    },
+    "departments002": {
+      "field_label": "Description",
+      "form_field": "text",
+      "display_position": "display-in-table-row",
+      "serial_number": "",
+      "field_identifier": "description"
+    },
+    "departments003": {
+      "field_label": "Head of Department",
+      "form_field": "calculated",
+      "calculations": {
+        "type": "record-details",
+        "reference_table": "users",
+        "reference_keys": [
+          "name"
+        ],
+        "form_field": "text",
+        "variables": [
+          [
+            "departments003"
+          ]
+        ]
+      },
+      "attributes": " action=\"?action=users&todo=get_select2\" ",
+      "default_appearance_in_table_fields": "show",
+      "display_position": "display-in-table-row",
+      "class": " select2 ",
+      "field_identifier": "head"
+    },
+    "departments006": {
+      "field_label": "SBU",
+      "form_field": "text",
+      "required_field": "yes",
+      "calculationsX": {
+        "type": "record-details",
+        "reference_table": "stores",
+        "reference_keys": [
+          "name"
+        ],
+        "multiple": 1,
+        "show_in_form": 1,
+        "form_field": "text",
+        "variables": [
+          [
+            "departments006"
+          ]
+        ]
+      },
+      "attributesX": " tags=\"true\" action=\"?action=stores&todo=get_select2\" minlength=\"0\" ",
+      "classX": " select2 ",
+      "attributes": "",
+      "class": "",
+      "default_appearance_in_table_fields": "show",
+      "display_position": "display-in-table-row",
+      "serial_number": "",
+      "field_identifier": "sbu"
+    }
+  },
+  "form_order": [
+    "id",
+    "departments001",
+    "departments002",
+    "departments003",
+    "departments006",
+    "departments007",
+    "serial_num",
+    "creator_role",
+    "created_by",
+    "creation_date",
+    "modified_by",
+    "modification_date",
+    "ip_address",
+    "device_id",
+    "record_status"
+  ]
+}

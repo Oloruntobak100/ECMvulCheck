@@ -1,0 +1,19 @@
+{
+  "company_name": "CBN PAPERLITE",
+  "active_directory_domain_name": "MAYBEACHTECH.local",
+  "active_directory_server_name": "WIN-LVK0HO7H2U7",
+  "active_directory_sadmin_principal": "cn=GLORIA,cn=users,dc=MAYBEACHTECH,dc=local",
+  "active_directory_provider_url": "ldap://WIN-LVK0HO7H2U7.MAYBEACHTECH.local",
+  "active_directory_initial_context_factory": "com.sun.jndi.ldap.LdapCtxFactory",
+  "active_directory_security_authentication": "simple",
+  "active_directory_security_credentials": "smooth-42-home",
+  "active_directory_search_base": "dc=MAYBEACHTECH,dc=local",
+  "database_connection": "jdbc:sqlserver://WIN-LVK0HO7H2U7;user=law;password=1234567;database=cbn_ecm2;sslProtocol=TLSv1.2;encrypt=true;trustServerCertificate=true",
+  "admin_users": "gloria@maybeachtech.local,seno@maybeachtech.local",
+  "development_mode": 1,
+  "upload_file_formats": "pdf:::jpg:::jpeg:::png:::bmp:::doc:::docx:::xls:::xlsx:::csv:::pptx:::ppt",
+  "delete_my_uploads_in_secs": 2592000,
+  "delete_my_uploads": 1,
+  "max_upload_mb": 3,
+  "version": "2022.09.12"
+}

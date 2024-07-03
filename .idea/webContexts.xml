@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebContextManager">
+    <option name="state">
+      <map>
+        <entry key="file://$PROJECT_DIR$/web/access_roles/display_all_records_full_view--.jsp" value="file://$PROJECT_DIR$/web/access_roles" />
+        <entry key="file://$PROJECT_DIR$/web/datatable_button/select_user_from_ad.jsp" value="file://$PROJECT_DIR$/web/datatable_button" />
+        <entry key="file://$PROJECT_DIR$/web/datatable_button/view_details.jsp" value="file://$PROJECT_DIR$/web/datatable_button" />
+      </map>
+    </option>
+  </component>
+</project>

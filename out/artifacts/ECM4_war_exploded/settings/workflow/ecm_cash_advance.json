@@ -1,0 +1,85 @@
+{
+  "id": "",
+  "static_comments": "",
+  "general_actions": {
+    "0": {
+      "action": "files",
+      "todo": "attach_file_to_record&plugin=nwp_ecm",
+      "title": "Attach File"
+    },
+    "1": {
+      "action": "comments",
+      "todo": "add_comment&plugin=nwp_ecm",
+      "title": "Comment"
+    },
+    "v_workf": {
+      "custom_id": "",
+      "action": "workflow_settings",
+      "todo": "show_process_flow&nwp_view=nwp_workflow",
+      "title": "Visualize Workflow"
+    },
+    "move_job": {
+      "custom_id": "",
+      "action": "nwp_ecm",
+      "todo": "move_job",
+      "title": "Move Job"
+    }
+  },
+  "tabs": {
+    "0": {
+      "action": "ecm_cash_advance",
+      "todo": "display_record_meta_data",
+      "title": "Trip Details"
+    },
+    "1": {
+      "action": "files",
+      "todo": "files_search_list2",
+      "title": "Files"
+    },
+    "2": {
+      "action": "comments",
+      "todo": "comments_search_list2",
+      "title": "Comments"
+    },
+    "trail": {
+      "custom_id": "",
+      "action": "nwp_workflow",
+      "todo": "display_workflow_trail",
+      "title": "Audit Trail"
+    },
+    "history": {
+      "custom_id": "",
+      "action": "nwp_workflow",
+      "todo": "workflow_history",
+      "title": "Workflow History"
+    }
+  },
+  "note": [],
+  "footer_buttons": {},
+  "tab_params": "&no_utilities=1&no_com_preview=1",
+  "details_todo": "view_details2",
+  "title_text": "Error: Unknown Workflow Process",
+  "refresh_params": "&menu_title=Open and View Details&hide_buttons=1&modal=1",
+  "action_to_perform": "execute&nwp_action=ecm2&nwp_todo=control_panel",
+  "table": "ecm_cash_advance",
+  "html_replacement_selector": "inventories-asset-center-sub",
+  "item": {},
+  "plugin": "nwp_ecm",
+  "details": "",
+  "table_label": "ecm",
+  "show_refresh": 1,
+  "details_column": 5,
+  "action_column": 3,
+  "comments_column": 3,
+  "development": 1,
+  "table_real": "",
+  "click_btn": "",
+  "title_key": "",
+  "locked": {},
+  "action_group": {},
+  "action_groups": {},
+  "general_tasks": {},
+  "general_tasks2": {},
+  "show_comments": "",
+  "hide_title": ""
+}

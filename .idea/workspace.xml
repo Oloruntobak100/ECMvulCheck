@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ECM4:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4ca5f815-ff6c-44b8-939c-8bca79f11641" name="Changes" comment="2. Regarding the issue of nomenclature, some terminologies are ambiguous and require change. For example, &quot;Save as Complete&quot; should be changed to &quot;Approved,&quot; and &quot;Endorse &amp; Send to Awaiting Affidavit&quot; should be changed to &quot;Reviewed&quot; under the Responding to Garnishee Order process. The &quot;Submitted to Complete&quot; narration/title in the email is also doubtful." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2DB5txCTHBpV8WafPAucS17gRqd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "Merging master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/cbnECM",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.26862925",
+    "settings.editor.selected.configurable": "terminal"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\IdeaProjects\ECM4\web" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\IdeaProjects\ECM4\src\main\webapp\views\datatable_button" />
+      <recent name="C:\Users\Administrator\IdeaProjects\ECM4\web\views\nwp_workflow" />
+      <recent name="C:\Users\Administrator\IdeaProjects\ECM4\web\nwp_workflow" />
+      <recent name="C:\Users\Administrator\IdeaProjects\ECM4\web\files" />
+      <recent name="C:\Users\Administrator\IdeaProjects\ECM4\web\comments" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.DBConn">
+    <configuration name="DBConn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codes.DBConn" />
+      <module name="ECM4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GlobalFunctions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codes.GlobalFunctions" />
+      <module name="ECM4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nwpCURL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codes.nwpCURL" />
+      <module name="ECM4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nwpTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codes.nwpTest" />
+      <module name="ECM4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 7.0.92" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.92" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="ECM4:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/ECM4" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="7ad494b0-080e-44c4-b7d1-066fe594587f" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63706" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ECM4:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="com.poratu.idea.plugins.tomcat" nameIsGenerated="true">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="contextPath" value="/ECM4" />
+      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+      <option name="extraClassPath" value="" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/7.0.92" />
+          <option name="path" value="$PROJECT_DIR$/../../../../xampp/tomcat" />
+          <option name="version" value="7.0.92.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <module name="ECM4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.DBConn" />
+      <item itemvalue="Application.GlobalFunctions" />
+      <item itemvalue="Application.nwpTest" />
+      <item itemvalue="Application.nwpCURL" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.nwpTest" />
+        <item itemvalue="Application.DBConn" />
+        <item itemvalue="Application.GlobalFunctions" />
+        <item itemvalue="Application.nwpCURL" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4ca5f815-ff6c-44b8-939c-8bca79f11641" name="Changes" comment="" />
+      <created>1660159861097</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660159861097</updated>
+      <workItem from="1660159863222" duration="72170000" />
+      <workItem from="1662840653511" duration="29000" />
+      <workItem from="1662840698180" duration="247814000" />
+      <workItem from="1677159949700" duration="2324000" />
+      <workItem from="1677243460603" duration="259000" />
+      <workItem from="1677267251094" duration="20526000" />
+      <workItem from="1678120285784" duration="3332000" />
+      <workItem from="1685710400639" duration="88000" />
+      <workItem from="1685710618714" duration="133730000" />
+      <workItem from="1687728632734" duration="52432000" />
+      <workItem from="1693146812107" duration="30803000" />
+      <workItem from="1699477081966" duration="26000" />
+      <workItem from="1699477697440" duration="2666000" />
+      <workItem from="1712510996743" duration="2449000" />
+      <workItem from="1714108750478" duration="1366000" />
+    </task>
+    <task id="LOCAL-00001" summary="ca2 - Cash Advance Trip Start">
+      <created>1693147085729</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693147085729</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ca3 - Cash Advance Trip General Settings">
+      <created>1693241588460</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1693241588460</updated>
+    </task>
+    <task id="LOCAL-00003" summary="CBN Updates&#10;1) Remove Zones/Make them hidden such that when the user selects the destination the system can ascertain his/her zone. (The destination determines the Zone)&#10;&#10;2) Rename the &quot;Departure Date&quot; field in the Cash Advance Process to the &quot;Travelling Date&quot;&#10;Rename the &quot;Amount&quot; field to Total Amount Payable&#10;&#10;3) Hide the following fields as well: Lunch fare, Accommodation, Auto Increment Settings&#10;&#10;4) Kindly explain again the function of the Metadata Tab in the workflow view&#10;&#9;&#9;&#10;5) Change of Cash Advance Workflow Process: Initiation -&gt; Payment Officer -&gt; Administrator&#10;The first test skipped Head of Office but the second test didn't.&#10;&#10;6) Provide users (Admin Payment Officer) the ability to edit the total Amount Payable before approval/submission.&#10;&#10;7) Local Runs calculation was incorrect during computation: 0.05 x No. of Days x Per Diem">
+      <option name="closed" value="true" />
+      <created>1699519040863</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699519040863</updated>
+    </task>
+    <task id="LOCAL-00004" summary="1. At the end of the flow under the Writ Summons, while approval is granted by the DLSD, an email is received to Open and View Details. However, the system displayed an error message (Response Error. Please try again or contact the support team), which prevented us from proceeding to its status realization whether it is approved with comments and recommendations. This issue needs to be fixed in order to see the final approval and recommendations.&#10;&#10;5. Additionally, the DLSD is not receiving the Writ of Summons, and this issue applies to other processes.&#10; &#10;6. Responding to the Garnishee Order also errored, and we could not view details.">
+      <option name="closed" value="true" />
+      <created>1701221929972</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701221929972</updated>
+    </task>
+    <task id="LOCAL-00005" summary="2. Regarding the issue of nomenclature, some terminologies are ambiguous and require change. For example, &quot;Save as Complete&quot; should be changed to &quot;Approved,&quot; and &quot;Endorse &amp; Send to Awaiting Affidavit&quot; should be changed to &quot;Reviewed&quot; under the Responding to Garnishee Order process. The &quot;Submitted to Complete&quot; narration/title in the email is also doubtful.">
+      <option name="closed" value="true" />
+      <created>1701223454071</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701223454071</updated>
+    </task>
+    <task id="LOCAL-00006" summary="2. Regarding the issue of nomenclature, some terminologies are ambiguous and require change. For example, &quot;Save as Complete&quot; should be changed to &quot;Approved,&quot; and &quot;Endorse &amp; Send to Awaiting Affidavit&quot; should be changed to &quot;Reviewed&quot; under the Responding to Garnishee Order process. The &quot;Submitted to Complete&quot; narration/title in the email is also doubtful.">
+      <option name="closed" value="true" />
+      <created>1719476806769</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1719476806769</updated>
+    </task>
+    <task id="LOCAL-00007" summary="2. Regarding the issue of nomenclature, some terminologies are ambiguous and require change. For example, &quot;Save as Complete&quot; should be changed to &quot;Approved,&quot; and &quot;Endorse &amp; Send to Awaiting Affidavit&quot; should be changed to &quot;Reviewed&quot; under the Responding to Garnishee Order process. The &quot;Submitted to Complete&quot; narration/title in the email is also doubtful.">
+      <option name="closed" value="true" />
+      <created>1719476967335</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1719476967335</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="1.1 - Reinitializing Git Branch and Begin Development" />
+    <MESSAGE value="ca2 - Cash Advance Trip Start" />
+    <MESSAGE value="ca3 - Cash Advance Trip General Settings" />
+    <MESSAGE value="CBN Updates&#10;1) Remove Zones/Make them hidden such that when the user selects the destination the system can ascertain his/her zone. (The destination determines the Zone)&#10;&#10;2) Rename the &quot;Departure Date&quot; field in the Cash Advance Process to the &quot;Travelling Date&quot;&#10;Rename the &quot;Amount&quot; field to Total Amount Payable&#10;&#10;3) Hide the following fields as well: Lunch fare, Accommodation, Auto Increment Settings&#10;&#10;4) Kindly explain again the function of the Metadata Tab in the workflow view&#10;&#9;&#9;&#10;5) Change of Cash Advance Workflow Process: Initiation -&gt; Payment Officer -&gt; Administrator&#10;The first test skipped Head of Office but the second test didn't.&#10;&#10;6) Provide users (Admin Payment Officer) the ability to edit the total Amount Payable before approval/submission.&#10;&#10;7) Local Runs calculation was incorrect during computation: 0.05 x No. of Days x Per Diem" />
+    <MESSAGE value="1. At the end of the flow under the Writ Summons, while approval is granted by the DLSD, an email is received to Open and View Details. However, the system displayed an error message (Response Error. Please try again or contact the support team), which prevented us from proceeding to its status realization whether it is approved with comments and recommendations. This issue needs to be fixed in order to see the final approval and recommendations.&#10;&#10;5. Additionally, the DLSD is not receiving the Writ of Summons, and this issue applies to other processes.&#10; &#10;6. Responding to the Garnishee Order also errored, and we could not view details." />
+    <MESSAGE value="2. Regarding the issue of nomenclature, some terminologies are ambiguous and require change. For example, &quot;Save as Complete&quot; should be changed to &quot;Approved,&quot; and &quot;Endorse &amp; Send to Awaiting Affidavit&quot; should be changed to &quot;Reviewed&quot; under the Responding to Garnishee Order process. The &quot;Submitted to Complete&quot; narration/title in the email is also doubtful." />
+    <option name="LAST_COMMIT_MESSAGE" value="2. Regarding the issue of nomenclature, some terminologies are ambiguous and require change. For example, &quot;Save as Complete&quot; should be changed to &quot;Approved,&quot; and &quot;Endorse &amp; Send to Awaiting Affidavit&quot; should be changed to &quot;Reviewed&quot; under the Responding to Garnishee Order process. The &quot;Submitted to Complete&quot; narration/title in the email is also doubtful." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/codes/ActiveDirectory.java</url>
+          <line>989</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/codes/nwpConnectToAPI.java</url>
+          <line>173</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+        <watch expression="cashAdvanceKM" />
+        <watch expression="multiplier" />
+        <watch expression="fare" />
+        <watch expression="transportAmount" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

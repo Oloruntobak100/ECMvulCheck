@@ -1,0 +1,69 @@
+{
+  "label": "Access Role",
+  "name": "access_roles",
+  "datatable_options": {
+	"hide_view_details": 1
+	},
+  "fields": {
+    "name": "access_roles001",
+    "accessible_functions": "access_roles002",
+    "data": "access_roles003",
+    "role_type": "access_roles004"
+  },
+  "labels": {
+    "access_roles001": {
+      "field_label": "Access Role",
+      "form_field": "text",
+      "required_field": "yes",
+      "display_position": "display-in-table-row",
+      "default_appearance_in_table_fields": "show",
+      "serial_number": "",
+      "field_identifier": "name"
+    },
+    "access_roles002": {
+      "field_label": "Accessible Functions",
+      "form_field": "textarea",
+      "required_field": "yes",
+      "form_field_options": "get_accessible_functions",
+      "display_position": "do-not-display-in-table",
+      "default_appearance_in_table_fields": "hide",
+      "serial_number": "",
+      "field_identifier": "accessible_functions"
+    },
+    "access_roles003": {
+      "field_label": "Data",
+      "form_field": "textarea-unlimited",
+      "required_field": "no",
+      "default_appearance_in_table_fields": "hide",
+      "display_position": "do-not-display-in-table",
+      "serial_number": "",
+      "field_identifier": "data"
+    },
+    "access_roles004": {
+      "field_label": "Role Type",
+      "form_field": "select",
+      "form_field_options": "get_access_role_types",
+      "required_field": "yes",
+      "display_position": "display-in-table-row",
+      "default_appearance_in_table_fields": "show",
+      "serial_number": "",
+      "field_identifier": "role_type"
+    }
+  },
+  "form_order": [
+    "id",
+    "access_roles001",
+    "access_roles002",
+    "access_roles003",
+    "access_roles004",
+    "serial_num",
+    "creator_role",
+    "created_by",
+    "creation_date",
+    "modified_by",
+    "modification_date",
+    "ip_address",
+    "device_id",
+    "record_status"
+  ]
+}

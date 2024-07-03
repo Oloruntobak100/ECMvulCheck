@@ -1,0 +1,51 @@
+[
+  {
+    "icon": "icon-home",
+    "no_access": 1,
+	"menu_key": "home",
+    "id": "action=display_menu:::nwp2_action=nwp_workflow:::nwp2_todo=execute:::nwp_action=workflow:::nwp_todo=data_approval_dashboard:::todo=my_wk_apd:::get_children=1:::html_replacement_selector=mis-container-sub:::current_tab=home:::is_menu=1:::menu_title=Home",
+    "text": "HOME"
+  },
+  {
+    "li_attr": {
+      "title": "New ECM Process / Job"
+    },
+    "menu_key": "new_job",
+    "icon": "icon-upload-alt",
+    "tooltip": "New ECM Process / Job",
+    "id": "action=display_menu:::nwp2_action=nwp_ecm:::nwp2_todo=execute:::nwp_action=ecm2:::nwp_todo=start_new_process:::todo=nwp_ecm_new:::get_children=1:::html_replacement_selector=mis-container-sub:::current_tab=home:::is_menu=1:::menu_title=New+ECM+Process",
+    "text": "NEW JOB"
+  },
+  {
+    "access_type": "_sys_",
+    "menu_key": "sys_roles",
+	"id": "action=display_menu:::nwp2_action=access_roles:::nwp2_todo=display_all_records_full_view:::nwp_action=:::nwp_todo=:::todo=user_access_roles:::get_children=1:::html_replacement_selector=mis-container-sub:::current_tab=home:::is_menu=1:::menu_title=ACCESS+ROLES",
+    "text": "ACCESS ROLES"
+  },
+  {
+    "access_type": "_sys_",
+    "menu_key": "sys_users",
+	"id": "action=display_menu:::nwp2_action=users:::nwp2_todo=display_all_records_full_view:::nwp_action=:::nwp_todo=:::todo=user_accounts:::get_children=1:::html_replacement_selector=mis-container-sub:::current_tab=home:::is_menu=1:::menu_title=USERS+ASSIGNMENT",
+    "text": "USERS ASSIGNMENT"
+  },
+  {
+    "children": [
+      {
+        "id": "action=display_menu:::nwp2_action=comments:::nwp2_todo=display_my_records_frontend:::todo=comments:::get_children=1:::html_replacement_selector=mis-container-sub:::current_tab=home:::is_menu=1:::menu_title=My+Messages",
+        "text": "COMMENTS"
+      },
+      {
+        "id": "action=display_menu:::nwp2_action=files:::nwp2_todo=display_my_records_frontend:::todo=files:::get_children=1:::html_replacement_selector=mis-container-sub:::current_tab=home:::is_menu=1:::menu_title=My+Documents",
+        "text": "DOCUMENTS"
+      },
+      {
+        "id": "action=display_menu:::nwp2_action=ecm_cash_advance:::nwp2_todo=display_my_records_frontend:::todo=:::get_children=1:::html_replacement_selector=mis-container-sub:::current_tab=home:::is_menu=1:::menu_title=My+Cash+Advance",
+        "text": "CASH ADVANCE"
+      }
+    ],
+	"no_access": 1,
+	"menu_key": "my_space",
+    "id": "my-p-space",
+    "text": "MY SPACE"
+  }
+]

@@ -1,0 +1,65 @@
+{
+  "dev1kit":{
+	"url": "http://localhost:819/feyi/engine/xml-server.php",
+	"title": "Dev1kit Endpoint",
+	"request_method": "POST",
+	"content_type": "application/json",
+	"pay_load": "{\"daniel\":\"john\",\"kenny\":\"jath\"}",
+	"header_options": {
+		"return_json":true,
+		"RequestProperty":{
+			"Accept":"application/json",
+			"Content-Type":"application/json",
+			"Connection":"Keep-Alive"
+		}
+	}
+  },
+  "staff_details":{
+	"url": "http://localhost:819/feyi/engine/xml-server.php?a=staff",
+	"urlX": "http://172.24.49.215:7203/soa-infra/resources/GenericAPIs/staff_details_interface!1.0/StaffDetailsRest/",
+	"title": "Staff Details",
+	"request_method": "POST",
+	"content_type": "application/json",
+	"pay_load": "{\"employee_no\":\"27699\",\"username\":\"paperlite\",\"password\":\"paperlitePass\"}",
+	"header_options": {
+		"return_json":true,
+		"RequestProperty":{
+			"Accept":"application/json",
+			"Content-Type":"application/json",
+			"Connection":"Keep-Alive"
+		}
+	}
+  },
+  "create_invoice":{
+	"url": "http://localhost:819/feyi/engine/xml-server.php",
+	"urlX": "http://172.24.49.215:7203/soa-infra/resources/EDMSInterface/invoice_creation_interface!1.0/EDMRestRef/",
+	"title": "Create Invoice",
+	"request_method": "POST",
+	"content_type": "application/json",
+	"pay_load": "{\"employee_no\":\"27699\",\"invoice_date\":\"\",\"invoice_amount\":\"100\",\"invoice_no\":\"EDM\/CSHADV\/10\/02\/2023\/000222\",\"description\":\"Invoice description\",\"client_username\":\"PAPERLITE_APP\",\"client_password\":\"UEBzc3cwcmQxMjM0NQ==\"}",
+	"header_options": {
+		"return_json":true,
+		"RequestProperty":{
+			"Accept":"application/json",
+			"Content-Type":"application/json",
+			"Connection":"Keep-Alive"
+		}
+	}
+  },
+  "send_email":{
+	"url": "http://localhost:819/feyi/engine/xml-server.php",
+	"urlX": "https://172.24.49.223:7503/soa-infra/resources/GenericAPIs/genericEmail!1.0/genericNotification/application.wadl",
+	"title": "Send Email",
+	"request_method": "POST",
+	"content_type": "application/json",
+	"pay_load": "{\"RqData\":{\"sender\":\"oiolajide@cbn.gov.ng\",\"receiver\":\"oejunaid@cbn.gov.ng,sibello@cbn.gov.ng,lawrence@techbookyelite.com,patrick@techbookyelite.com\",\"subject\":\"PAPERLITE TEST EMAIL\",\"body\":\"Hello world from PAPERLITE\",\"heading\":\"PAPERLITE eHeading\"},\"RsData\":{\"ResponseCode\":\"\",\"ResponseMSG\":\"\",\"ErrorMSG\":\"\"}}",
+	"header_options": {
+		"return_json":true,
+		"RequestProperty":{
+			"Accept":"application/json",
+			"Content-Type":"application/json",
+			"Connection":"Keep-Alive"
+		}
+	}
+  }
+}

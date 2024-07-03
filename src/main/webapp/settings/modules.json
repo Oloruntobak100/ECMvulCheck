@@ -1,0 +1,11 @@
+{
+  "a1_home_tab": {
+    "action": "?action=display_nav_bar&current_tab=home",
+    "title": "<i class='icon-home'>&nbsp;</i>",
+    "no_access": 1
+  },
+  "a2_admin_tab": {
+    "action": "?action=display_nav_bar&current_tab=system",
+    "title": "System"
+  }
+}

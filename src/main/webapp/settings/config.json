@@ -1,0 +1,53 @@
+{
+  "company_name": "CBN PAPERLITE",
+  "active_directory_domain_name": "MAYBEACHTECH.local",
+  "active_directory_server_name": "WIN-LVK0HO7H2U7",
+  "active_directory_sadmin_principal": "cn=GLORIA,cn=users,dc=MAYBEACHTECH,dc=local",
+  "active_directory_provider_url": "ldap://WIN-LVK0HO7H2U7.MAYBEACHTECH.local",
+  "active_directory_initial_context_factory": "com.sun.jndi.ldap.LdapCtxFactory",
+  "active_directory_security_authentication": "simple",
+  "active_directory_security_credentials": "smooth-42-home",
+  "active_directory_search_base": "dc=MAYBEACHTECH,dc=local",
+  "database_connection": "jdbc:sqlserver://213.165.231.116;user=sa;password=freka23-12D;database=paperlite2;sslProtocol=TLSv1.2;encrypt=true;trustServerCertificate=true",
+  "database_connectionX": "amRiYzpzcWxzZXJ2ZXI6Ly9XSU4tTFZLMEhPN0gyVTc7dXNlcj1sYXc7cGFzc3dvcmQ9MTIzNDU2NztkYXRhYmFzZT1jYm5fZWNtMjtzc2xQcm90b2NvbD1UTFN2MS4yO2VuY3J5cHQ9dHJ1ZTt0cnVzdFNlcnZlckNlcnRpZmljYXRlPXRydWU=",
+  "admin_users": "gloria@maybeachtech.local,seno@maybeachtech.local",
+  "development_mode": 1,
+  "upload_file_formats": "pdf:::jpg:::jpeg:::png:::bmp:::doc:::docx:::xls:::xlsx:::csv:::pptx:::ppt",
+  "delete_my_uploads_in_secs": 2592000,
+  "delete_my_uploads": 1,
+  "max_upload_mb": 3,
+  "cache_email": 3,
+  "admin_email": "seno@maybeachtech.local",
+  "decrypt_database_connectionX": true,
+  "log_non_fatal": true,
+  "log_query": true,
+  "always_use_admin_email": false,
+  "log_api_calls": true,
+  "log_active_directory_result": true,
+  "use_get_record_cache": false,
+  "staff_details_api_cache_time_secs": 120,
+  "skip_staff_details_api": {"edit_users":true, "create_usersX":true, "cash_advanceX":true },
+  "active_directory_fields_map": {"samAccountName":"employee_no", "userPrincipalName":"email"},
+  "cbn_ad_conn": false,
+  "cbn_ad_conn_pwdX": true,
+  "cbn_ad_conn_userX": true,
+  "active_directory_cn_dcXX": ",cn=users",
+  "active_directory_cn_dcX": ",cn=users,dc=MAYBEACHTECH,dc=local",
+  "use_rst": true,
+  "view_my_jobs": {
+    "ws27047079852":{
+      "title": "CASH ADVANCE SINGLE & MULTI TRIP",
+      "in": " 'draft' "
+    },
+    "ws27047084668":{
+      "title": "CASH ADVANCE RETIRE & REIMBURSEMENT",
+      "in": " 'draft' "
+    }
+  },
+  "add_increment_in_localruns": false,
+  "add_increment_in_accommodation": false,
+  "add_no_of_days_in_accommodation": false,
+  "use_default_cash_advance_settings": true,
+  "hidden_zones_in_cash_advance": true,
+  "version": "dev.2022.09.12"
+}

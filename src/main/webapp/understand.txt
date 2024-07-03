@@ -1,0 +1,92 @@
+DB conn timeout
+Auto deleting uploads & downloads folders every 24hrs...
+
+ rm -rf "C:/xampp/tomcat/webapps/ECM6/" && mvn clean && mvn package && cp "C:/Users/Administrator/IdeaProjects/ECM4/target/ECM4-1.0-SNAPSHOT.war" "C:/xampp/tomcat/webapps/ECM6.war"
+
+TODO:
+user assignment
+    fields: -group, team
+access control...mng cap
+    cache values... (5)
+        --after save, view details of cache not showing. e.g user assignment
+
+        trip fields
+            total no. of days
+
+            line 257 nwpEcm2
+            prevent duplicates in ca rates
+            exclude custom.plugin.url, activedirectory class, config file
+            //change to amount approved: nwpCashAd..135
+
++Set approval usernames(6)
+    -ad_sadmin password encoding & encoding page
+
+test workflows (8)
+    +Delete files uploaded by you
+    +Flagging
+    +Changing priority levels
+
+    refresh approval dashboard count after approval
+
+    Auto deleting uploads & downloads folders every 24hrs..
+    .
+    Approving / returning workflow whose status has changed
+    File Locking - multiple ppl accessing the same workflow
+
+activate all menus (9)
+
+
+mail notifications
+datatable
+    - export
+    - custom button
+    - advance search
+    + quick search
+    - show columns --store in session (6)
+    - pagination
+    + sorting
+
+arrange view folders
+fiaps
+portal
+
+session not working for doGET
+
+SKIP
+C:\Users\Administrator\IdeaProjects\ECM4\src\test C:\Users\Administrator\IdeaProjects\ECM4\src\test C:\Users\Administrator\IdeaProjects\ECM4\src\main\resources C:\Users\Administrator\IdeaProjects\ECM4\src\main\java\codes\ActiveDirectory.java C:\Users\Administrator\IdeaProjects\ECM4\web\hospital-assets C:\Users\Administrator\IdeaProjects\ECM4\web\assets\assets C:\Users\Administrator\IdeaProjects\ECM4\web\assets\css C:\Users\Administrator\IdeaProjects\ECM4\web\assets\fonts C:\Users\Administrator\IdeaProjects\ECM4\web\assets\img C:\Users\Administrator\IdeaProjects\ECM4\web\assets\plugins C:\Users\Administrator\IdeaProjects\ECM4\web\assets\scripts C:\Users\Administrator\IdeaProjects\ECM4\web\WEB-INF C:\Users\Administrator\IdeaProjects\ECM4\web\v1.2-assets C:\Users\Administrator\IdeaProjects\ECM4\web\a-assets C:\Users\Administrator\IdeaProjects\ECM4\web\v1.2-assets C:\Users\Administrator\IdeaProjects\ECM4\web\.gitignore C:\Users\Administrator\IdeaProjects\ECM4\web\assets\app\custom.plugin.url.js C:\Users\Administrator\IdeaProjects\ECM4\web\settings\config.json
+
+
+NOTES:
+1. login.java = ajax_processing
+2.  System.out.println() = echo or print_r
+3. login.java::paramJson = converts request params to JSON object e.g: data=data10&sensor=sensor10&type=type10 to {"data":"data10","sensor":"sensor10","type":"type10"}
+
+MAP:
+1. src/main/java/Login.java = doPost = dashboard
+2. src/main/java/Login.java = doPost = display_nav_bar
+    3. web/side-menu.jsp
+4. src/main/java/Login.java = doPost = display_menu
+
+BUSINESS REQ.
+
+CLASS DEFINITION - PHASE 1 - JAVA - 23 ECM PROCESSES
+    DBConn: provides connectivity to database & responsible for executing queries
+
+    NavBar: generates the welcome screen & menus via JSON configuration files
+
+    GlobalFunctions: hold special purpose functions/methods that are re-used throughout the project
+
+    ECM Processes: Stores each instance of the 23 ecm processes
+
+    nwpWorkflow: manages the relationship btw ecm process & approval process (via JSON configuration data saved in the workflow_settings database table)
+
+    nwpFiles: store info of uploaded files
+
+    nwpDataTable: generates HTML table (via JSON configuration files) for visualizing database table records & generate queries for CRUD operations on the database tables
+
+    nwpFormGen: generates HTML forms (via JSON configuration files) to enable that provides the user the ability to perform crud operations on the database records
+
+    nwpComments: stores users comments
+
+CLASS DEFINITION - PHASE 2 - JAVA - 16 FIAPS PROCESSES
+    nwpBlackBook: stores & handles all black book related functions

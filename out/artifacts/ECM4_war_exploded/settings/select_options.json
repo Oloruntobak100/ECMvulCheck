@@ -1,0 +1,110 @@
+{
+  "get_active_inactive": {
+    "active": "Active",
+    "in_active": "In Active"
+  },
+  "get_no_yes2": {
+    "no": "No",
+    "yes": "Yes"
+  },
+  "get_yes_no": {
+    "yes": "Yes",
+    "no": "No"
+  },
+  "get_notification_states": {
+    "read": "Read",
+    "unread": "Unread"
+  },
+  "get_form_field_types": {
+    "text": "Textbox",
+    "number": "Number",
+    "decimal": "Decimal",
+    "tel": "Phone Number",
+    "url": "URL",
+    "email": "Email Address",
+    "date": "Date",
+    "textarea": "Textarea",
+    "textarea-unlimited": "Textarea Unlimited (SMALL)",
+    "textarea-unlimited-med": "Textarea Unlimited (MEDIUM)",
+    "file": "File Upload"
+  },
+  "get_sex": {
+    "male": "Male",
+    "female": "Female"
+  },
+  "get_access_role_types": {
+    "users": "Users",
+    "api": "API"
+  },
+  "get_comment_type": {
+    "parent": "Parent",
+    "child": "Child"
+  },
+  "get_comment_action": {
+    "approve": "Approve",
+    "reject": "Reject"
+  },
+  "get_comment_status": {
+    "read": "Read",
+    "unread": "Unread"
+  },
+  "get_share_type": {
+    "single": "Single",
+    "bulk": "Bulk"
+  },
+  "get_files_type": {
+    "create_file": "Create File",
+    "attachment": "Attachment",
+    "old_version": "Old Version",
+    "shared": "Shared",
+    "harmonized_list": "Harmonized List",
+    "policy": "Social Safety Net Policy",
+    "budget_line": "Budget Line",
+    "report": "Report"
+  },
+  "get_labels_type": {
+    "files": "Files",
+    "library": "Library",
+    "library_child": "Library Folder",
+    "comments": "Comments",
+    "records": "Records",
+    "workflow": "Workflow",
+    "selection": "Selection",
+    "share": "Shared"
+  },
+  "get_workflow_type": {
+    "omission": "Omission",
+    "duplicate": "Duplicate",
+    "file": "Files",
+    "form": "Form",
+    "record": "Records",
+    "meta_data": "Meta Data"
+  },
+  "ecm_cash_advance_types": {
+    "single_trip": "Single Trip",
+    "multiple_trip": "Multiple Trip",
+    "refund": "Refund",
+    "reimbursement": "Reimbursement",
+    "admin_cheque": "Administrator Cheques",
+    "retire": "Retirement"
+  },
+  "ecm_cash_advance_types_code": {
+    "single_trip": "ST",
+    "multiple_trip": "MT",
+    "refund": "RE",
+    "reimbursement": "RM",
+    "admin_cheque": "AC"
+  },
+  "approval_status": {
+    "draft": "Draft",
+    "submitted": "Submitted",
+    "approved": "Approved",
+    "declined": "Declined",
+    "returned": "Returned",
+    "cancelled": "Cancelled"
+  },
+  "ecm_cash_advance_transport": {
+    "land": "Land",
+    "air": "Air"
+  }
+}

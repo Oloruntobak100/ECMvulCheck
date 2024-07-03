@@ -1,0 +1,188 @@
+{
+  "dev_archives": {
+    "title": "Archives",
+    "class": "dashboard",
+    "action": "",
+    "icon": "icon-cogs",
+    "access": "14426540071",
+    "tab": {
+      "system": 1
+    },
+    "sub_menu": {
+      "data_access": 1
+    }
+  },
+  "ecm": {
+    "title": "ECM & Workflows",
+    "class": "customers",
+    "action": "display_app_view_manage_consultation",
+    "access": "14426540071",
+    "tab": {
+      "system": 1
+    },
+    "sub_menu": {
+      "nwp_ecm2": 1,
+      "wk_view": 1,
+      "wk_settings": 1
+    }
+  },
+  "ecm_ca1": {
+    "title": "Cash Advance",
+    "class": "customers",
+    "action": "display_app_view_manage_consultation",
+    "access": "14426540071",
+    "tab": {
+      "system": 1
+    },
+    "sub_menu": {
+      "ecm_ca": 1,
+	  "ecm_ca_t":1,
+	  "ecm_ca_z":1,
+	  "ecm_ca_r":1
+    }
+  },
+  "ecm_bma2": {
+    "title": "BOARD & MGT. STAFF",
+    "action": "display_all_records_frontend&get_children=1",
+    "full_title": "Board & Management Staff",
+    "tooltip": "Board & Management Staff",
+    "class": "ecm_top_management",
+    "tab": {
+      "home": 1
+    },
+    "sub_menu": {
+      "ecm_bma_draft": 1,
+      "ecm_bma_approved": 1,
+      "ecm_bma_approval_w": 1,
+      "ecm_bma_rejected": 1
+    }
+  },
+  "e_exam_report2": {
+    "title": "EXAMINATION REPORT",
+    "tooltip": "Examination Report",
+    "action": "display_all_records_frontend&get_children=1",
+    "class": "ecm_exam_report",
+    "tab": {
+      "home": 1
+    },
+    "sub_menu": {
+      "ecm_er_draft": 1,
+      "ecm_er_reviewed": 1,
+      "ecm_er_authorized": 1,
+      "ecm_er_rejected": 1,
+      "ecm_er_unauthorized": 1
+    }
+  },
+  "e_exam_report_req2": {
+    "title": "REQUEST FOR DOWNLOAD",
+    "full_title": "Exam. Report Request for Download",
+    "tooltip": "Exam. Report Request for Download",
+    "action": "display_all_records_frontend&get_children=1",
+    "class": "ecm_exam_report_req",
+    "tab": {
+      "home": 1
+    },
+    "sub_menu": {
+      "ecm_err_draft": 1,
+      "ecm_err_approved": 1,
+      "ecm_err_rejected": 1
+    }
+  },
+  "ofid_reports": {
+    "title": "REPORTS",
+    "class": "ecm_base",
+    "action": "ofid_reports",
+    "tab": {
+      "home": 1
+    },
+    "sub_menu": {
+      "ofid_reports_bb": 1,
+      "ofid_reports_bba": 1,
+      "ofid_reports_pen": 1,
+      "ofid_reports_an": 1,
+      "ofid_reports_li": 1,
+      "ofid_reports_reg": 1,
+      "ofid_reports_pp": 1,
+      "ofid_reports_cp": 1,
+      "ecm_bmar": 1
+    }
+  },
+  "set_more": {
+    "title": "More",
+    "class": "ecm_more",
+    "action": "set_more",
+    "tab": {
+      "system": 1
+    },
+    "sub_menu": {
+      "all_proc": 1,
+      "set_li_mbbd": 1,
+      "set_li_lbbd": 1,
+      "set_li_vaat": 1,
+      "set_li_vaac": 1,
+      "ecm_bma": 1,
+      "ecm_bmal": 1,
+      "e_exam_report": 1,
+      "e_exam_report_req": 1
+    }
+  },
+  "set_users": {
+    "title": "Users",
+    "class": "ecm_base",
+    "action": "set_users",
+    "tab": {
+      "system": 1
+    },
+    "sub_menu": {
+      "departments": 1,
+      "user_accounts": 1,
+      "api_clients": 1,
+      "user_access_roles": 1,
+      "locked_files": 1,
+      "logged_in_users": 1,
+      "audit_trail": 1
+    }
+  },
+  "set_list": {
+    "title": "List Options",
+    "class": "ecm_base",
+    "action": "set_list",
+    "tab": {
+      "system": 1
+    },
+    "sub_menu": {
+      "set_li_fi": 1,
+      "set_li_states": 1,
+      "set_li_sanctions": 1,
+      "set_li_rb": 1,
+      "set_li_uid": 1,
+      "set_li_ofi_location": 1,
+      "set_li_ofi_old_proposed_names": 1,
+      "set_li_appraisal_opinion": 1,
+      "set_li_areas": 1,
+      "set_li_closures": 1,
+      "set_li_ofi_type": 1,
+      "set_li_location_type": 1,
+      "set_li_license_status": 1,
+      "set_li_auditors": 1,
+      "set_li_more_opts": 1
+    }
+  },
+  "set_setup": {
+    "title": "Settings",
+    "class": "ecm_base",
+    "action": "set_setup",
+    "tab": {
+      "system": 1
+    },
+    "sub_menu": {
+      "portal_user": 1,
+      "ecm_set": 1,
+      "view_audit": 1,
+      "ww_data": 1,
+      "em_data": 1,
+      "list_box_options": 1,
+      "admin_control_panel": 1
+    }
+  }
+}

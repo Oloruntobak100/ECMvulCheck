@@ -1,0 +1,53 @@
+[
+  {
+    "icon": "icon-home",
+    "id": "action=display_menu:::nwp2_action=nwp_workflow:::nwp2_todo=execute:::nwp_action=workflow:::nwp_todo=data_approval_dashboard:::todo=my_wk_apd:::get_children=1:::html_replacement_selector=mis-container-sub:::current_tab=home:::is_menu=1:::menu_title=Home",
+    "text": "HOME"
+  },
+  {
+    "li_attr": {
+      "title": "New ECM Process / Job"
+    },
+    "icon": "icon-upload-alt",
+    "tooltip": "New ECM Process / Job",
+    "id": "action=display_menu:::nwp2_action=nwp_ecm:::nwp2_todo=execute:::nwp_action=ecm2:::nwp_todo=start_new_process:::todo=nwp_ecm_new:::get_children=1:::html_replacement_selector=mis-container-sub:::current_tab=home:::is_menu=1:::menu_title=New+ECM+Process",
+    "text": "NEW JOB"
+  },
+  {
+    "children": [
+      {
+        "id": "action=display_menu:::nwp2_action=comments:::nwp2_todo=display_my_records_frontend:::todo=comments:::get_children=1:::html_replacement_selector=mis-container-sub:::current_tab=home:::is_menu=1:::menu_title=My+Messages",
+        "text": "COMMENTS"
+      },
+      {
+        "id": "action=display_menu:::nwp2_action=files:::nwp2_todo=display_my_records_frontend:::todo=files:::get_children=1:::html_replacement_selector=mis-container-sub:::current_tab=home:::is_menu=1:::menu_title=My+Documents",
+        "text": "DOCUMENTS"
+      },
+      {
+        "id": "action=display_menu:::nwp2_action=process:::nwp2_todo=display_my_pending_process:::todo=process:::get_children=1:::html_replacement_selector=mis-container-sub:::current_tab=home:::is_menu=1:::menu_title=Pending+Process",
+        "text": "PENDING PROCESS"
+      },
+      {
+        "id": "action=display_menu:::nwp2_action=process:::nwp2_todo=display_my_process:::todo=process:::get_children=1:::html_replacement_selector=mis-container-sub:::current_tab=home:::is_menu=1:::menu_title=My+Process+History",
+        "text": "MY PROCESS HISTORY"
+      },
+      {
+        "tooltip": "Draft Exam Report Download Request",
+        "id": "action=display_menu:::todo=ecm_exam_report_req:::nwp2_action=ecm_exam_report_req:::nwp2_todo=display_my_process:::nwp2_type=draft:::get_children=1:::html_replacement_selector=mis-container-sub:::current_tab=home:::is_menu=1:::menu_title=Draft+Exam+Report+Download+Request",
+        "text": "DRAFT E.R. DOWNLOAD REQ."
+      },
+      {
+        "tooltip": "Approved Exam Report Download Request",
+        "id": "action=display_menu:::todo=ecm_exam_report_req:::nwp2_action=ecm_exam_report_req:::nwp2_todo=display_my_process:::nwp2_type=approved:::get_children=1:::html_replacement_selector=mis-container-sub:::current_tab=home:::is_menu=1:::menu_title=Approved+Exam+Report+Download+Request",
+        "text": "APP. E.R. DOWNLOAD REQ."
+      },
+      {
+        "tooltip": "Rejected Exam Report Download Request",
+        "id": "action=display_menu:::todo=ecm_exam_report_req:::nwp2_action=ecm_exam_report_req:::nwp2_todo=display_my_process:::nwp2_type=rejected:::get_children=1:::html_replacement_selector=mis-container-sub:::current_tab=home:::is_menu=1:::menu_title=Rejected+Exam+Report+Download+Request",
+        "text": "REJ. E.R. DOWNLOAD REQ."
+      }
+    ],
+    "id": "my-p-space",
+    "text": "MY SPACE"
+  }
+]

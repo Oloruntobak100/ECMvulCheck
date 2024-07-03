@@ -1,0 +1,193 @@
+{
+  "label": "Cash Advance Kilometer Chart",
+  "name": "ecm_cash_advance_km_chart",
+  "prevent_duplicate": {
+    "error_message": "There is an existing entry for the specified zones:",
+    "error_title": "Duplicate Zone Distance",
+    "condition": "AND",
+    "fields": {
+		"from":{
+			"skip_if_empty": 1,
+			"flip_test": {
+				"to": 1
+			}
+		},
+		"to":{
+			"skip_if_empty": 1,
+			"flip_test": {
+				"from": 1
+			}
+		}
+	}
+  },
+  "fields": {
+    "from": "ecm_cash_advance_rate99",
+    "to": "ecm_cash_advance_rate100",
+    "land": "ecm_cash_advance_rate103",
+    "land_percent": "ecm_cash_advance_rate104"
+  },
+  "labels": {
+    "ecm_cash_advance_rate99": {
+      "table_name": "dle32878282176",
+      "serial_number": "10",
+      "field_type": "undefined",
+      "filed_length": "undefined",
+      "field_label": "From",
+      "display_field_label": "",
+      "form_field": "calculated",
+      "form_field_options": "",
+      "required_field": "yes",
+      "data": [],
+      "database_objects": "",
+      "attributes": " action=\"?action=ecm_cash_advance_zone&todo=get_select2\" minlength=\"0\" ",
+      "class": " select2 ",
+      "default_appearance_in_table_fields": "show",
+      "display_position": "display-in-table-row",
+      "acceptable_files_format": "",
+      "field_id": "ecm_cash_advance_rate99",
+      "group": "",
+      "id": "dds32878451555",
+      "serial_num": "99",
+      "created_by": "35991362173",
+      "modification_date": "1685696416",
+      "creation_date": "1685696416",
+      "modified_by": "35991362173",
+      "text": "From",
+      "field_key": "ecm_cash_advance_rate99",
+      "table": "ecm_cash_advance_km_chart",
+	  "calculations": {
+        "type": "record-details",
+        "reference_table": "ecm_cash_advance_zone",
+        "reference_keys": [
+          "name"
+        ],
+        "form_field": "text",
+        "variables": [
+          [
+            "ecm_cash_advance_rate99"
+          ]
+        ]
+      },
+      "field_identifier": "from"
+    },
+    "ecm_cash_advance_rate100": {
+      "table_name": "dle32878282176",
+      "serial_number": "20",
+      "field_type": "undefined",
+      "filed_length": "undefined",
+      "field_label": "To",
+      "display_field_label": "",
+      "form_field": "calculated",
+      "form_field_options": "",
+      "required_field": "yes",
+      "data": [],
+      "database_objects": "",
+      "attributes": " action=\"?action=ecm_cash_advance_zone&todo=get_select2\" minlength=\"0\" ",
+      "class": " select2 ",
+      "default_appearance_in_table_fields": "show",
+      "display_position": "display-in-table-row",
+      "acceptable_files_format": "",
+      "field_id": "ecm_cash_advance_rate100",
+      "group": "",
+      "id": "dds32878452346",
+      "serial_num": "100",
+      "created_by": "35991362173",
+      "modification_date": "1685696424",
+      "creation_date": "1685696424",
+      "modified_by": "35991362173",
+      "text": "To",
+      "field_key": "ecm_cash_advance_rate100",
+      "table": "ecm_cash_advance_km_chart",
+	  "calculations": {
+        "type": "record-details",
+        "reference_table": "ecm_cash_advance_zone",
+        "reference_keys": [
+          "name"
+        ],
+        "form_field": "text",
+        "variables": [
+          [
+            "ecm_cash_advance_rate100"
+          ]
+        ]
+      },
+      "field_identifier": "to"
+    },
+    "ecm_cash_advance_rate103": {
+      "table_name": "dle32878282176",
+      "serial_number": "50",
+      "field_type": "undefined",
+      "filed_length": "undefined",
+      "field_label": "Land Distance (km)",
+      "display_field_label": "Land Distance (km)",
+      "form_field": "decimal",
+      "form_field_options": "",
+      "required_field": "no",
+      "data": [],
+      "database_objects": "",
+      "attributes": "",
+      "class": "",
+      "default_appearance_in_table_fields": "show",
+      "display_position": "display-in-table-row",
+      "acceptable_files_format": "",
+      "field_id": "ecm_cash_advance_rate103",
+      "group": "",
+      "id": "dds32878470227",
+      "serial_num": "103",
+      "created_by": "35991362173",
+      "modification_date": "1685696603",
+      "creation_date": "1685696603",
+      "modified_by": "35991362173",
+      "text": "Land Distance (km)",
+      "field_key": "ecm_cash_advance_rate103",
+      "table": "ecm_cash_advance_km_chart",
+      "field_identifier": "land"
+    },
+    "ecm_cash_advance_rate104": {
+      "table_name": "dle32878282176",
+      "serial_number": "60",
+      "field_type": "undefined",
+      "filed_length": "undefined",
+      "field_label": "Land Rate (% markup)",
+      "display_field_label": "Land Rate (% markup)",
+      "form_field": "decimal",
+      "form_field_options": "",
+      "required_field": "no",
+      "data": [],
+      "database_objects": "",
+      "attributes": "",
+      "class": "",
+      "default_appearance_in_table_fields": "hide",
+      "display_position": "display-in-table-row",
+      "acceptable_files_format": "",
+      "field_id": "ecm_cash_advance_rate104",
+      "group": "",
+      "id": "dds32878483328",
+      "serial_num": "104",
+      "created_by": "35991362173",
+      "modification_date": "1685696734",
+      "creation_date": "1685696734",
+      "modified_by": "35991362173",
+      "text": "Land Rate (% markup)",
+      "field_key": "ecm_cash_advance_rate104",
+      "table": "ecm_cash_advance_km_chart",
+      "field_identifier": "land_percent"
+    }
+  },
+  "form_order": [
+    "id",
+    "ecm_cash_advance_rate99",
+    "ecm_cash_advance_rate100",
+    "ecm_cash_advance_rate103",
+    "ecm_cash_advance_rate104",
+    "serial_num",
+    "creator_role",
+    "created_by",
+    "creation_date",
+    "modified_by",
+    "modification_date",
+    "ip_address",
+    "device_id",
+    "record_status"
+  ]
+}

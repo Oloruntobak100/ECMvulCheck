@@ -1,0 +1,655 @@
+{
+  "user_accounts": {
+    "title": "User Accounts",
+    "class": "users",
+    "action": "display_all_records_full_view&nwp_action=&nwp_todo="
+  },
+  "api_clients": {
+    "title": "API Clients",
+    "class": "api",
+    "development": true,
+    "action": "display_all_records_full_view&nwp_action=&nwp_todo="
+  },
+  "user_access_roles": {
+    "title": "Access Roles",
+    "class": "access_roles",
+    "action": "display_all_records_full_view&nwp_action=&nwp_todo="
+  },
+  "locked_files": {
+    "title": "Locked Files",
+    "class": "locked_files",
+    "development": true,
+    "action": "display_all_records_full_view&nwp_action=&nwp_todo="
+  },
+  "logged_in_users": {
+    "title": "Logged-in Users",
+    "class": "logged_in_users",
+    "development": true,
+    "action": "display_all_records_full_view&nwp_action=&nwp_todo="
+  },
+  "audit_trail": {
+    "title": "Audit Trail",
+    "class": "audit",
+    "development": true,
+    "action": "display_audit_trail_analysis_view&nwp_action=&nwp_todo="
+  },
+  "comments": {
+    "title": "Comments",
+    "class": "comments",
+    "action": "display_all_records_frontend&nwp_action=&nwp_todo="
+  },
+  "files": {
+    "title": "Files",
+    "class": "files",
+    "action": "display_all_records_frontend&nwp_action=&nwp_todo="
+  },
+  "share": {
+    "title": "Share",
+    "class": "share",
+    "development": true,
+    "action": "display_all_records_frontend&nwp_action=&nwp_todo="
+  },
+  "folders": {
+    "title": "Folders",
+    "class": "tags",
+    "development": true,
+    "action": "display_all_records_frontend&nwp_action=&nwp_todo="
+  },
+  "folders-item": {
+    "title": "Folder Items",
+    "class": "tags_item",
+    "development": true,
+    "action": "display_all_records_frontend&nwp_action=&nwp_todo="
+  },
+  "form-builder": {
+    "title": "Form Builder",
+    "action": "sub_menu&nwp_action=&nwp_todo=",
+    "development": true,
+    "sub_menu": {
+      "form-builder-new": 1,
+      "form-builder-view": 1
+    },
+    "class": "sub_menu"
+  },
+  "test_db": {
+    "title": "Switch Database",
+    "class": "audit",
+    "development": true,
+    "action": "switch_to_test_database&nwp_action=&nwp_todo="
+  },
+  "admin_control_panel": {
+    "title": "Control Panel",
+    "tooltip": "Admin Control Panel",
+    "class": "audit",
+    "action": "display_admin_panel_view&nwp_action=&nwp_todo="
+  },
+  "stores": {
+    "title": "Stores",
+    "class": "stores",
+    "development": true,
+    "action": "display_all_records_frontend&nwp_action=&nwp_todo="
+  },
+  "departments": {
+    "title": "Departments",
+    "class": "departments",
+    "action": "display_all_records_full_view&nwp_action=&nwp_todo="
+  },
+  "general_settings": {
+    "title": "General Settings",
+    "class": "general_settings",
+    "action": "display_all_records_frontend&nwp_action=&nwp_todo="
+  },
+  "ca_general_settings": {
+    "title": "Cash Advance - Settings",
+    "class": "general_settings",
+    "action": "display_all_records_frontend&nwp_filter=cash_advance&nwp_action=&nwp_todo="
+  },
+  "manage_options_list": {
+    "title": "More Options",
+    "class": "banks",
+    "development": true,
+    "action": "display_all_records_frontend&nwp_action=&nwp_todo="
+  },
+  "project_settings": {
+    "title": "Project Settings",
+    "class": "project_settings",
+    "development": true,
+    "action": "display_all_records_frontend&nwp_action=&nwp_todo="
+  },
+  "list_box_options": {
+    "title": "List Box Options",
+    "class": "list_box_options",
+    "action": "display_all_records_frontend&nwp_action=&nwp_todo="
+  },
+  "manage_locations": {
+    "title": "Locations",
+    "class": "sub_menu",
+    "development": true,
+    "sub_menu": {
+      "manage_country": 1,
+      "manage_state_list": 1
+    },
+    "action": "sub_menu&nwp_action=&nwp_todo="
+  },
+  "documentation": {
+    "title": "Help Builder",
+    "action": "sub_menu&nwp_action=&nwp_todo=",
+    "development": true,
+    "sub_menu": {
+      "documentation_plugin_info": 1,
+      "documentation_new": 1,
+      "documentation_view": 1,
+      "documentation_preview": 1
+    },
+    "class": "sub_menu"
+  },
+  "data_access": {
+    "title": "Data Access",
+    "class": "audit",
+    "development": true,
+    "action": "display_data_access_view&nwp_action=&nwp_todo="
+  },
+  "import_items": {
+    "title": "Import Items",
+    "class": "sub_menu",
+    "development": true,
+    "sub_menu": {
+      "import_with_mapping": 1,
+      "import_without_mapping": 1,
+      "update_from_excel": 1
+    },
+    "action": "sub_menu&nwp_action=&nwp_todo="
+  },
+  "nwp_ft_search": {
+    "title": "Full Text Index",
+    "action": "sub_menu&nwp_action=&nwp_todo=",
+    "development": true,
+    "sub_menu": {
+      "nwp_ft_search_plugin_info": 1,
+      "nwp_ft_search_search": 1,
+      "nwp_ft_search_pending": 1,
+      "nwp_ft_search_complete": 1,
+      "nwp_ft_search_log": 1
+    },
+    "class": "sub_menu"
+  },
+  "wk_about": {
+    "title": "About",
+    "class": "nwp_workflow",
+    "action": "display_plugin_details&nwp_action=&nwp_todo="
+  },
+  "wk_apd": {
+    "title": "Approvals",
+    "full_title": "Approval Dashboard",
+    "tooltip": "Approval Dashboard",
+    "class": "nwp_workflow",
+    "action": "execute&nwp_action=workflow&nwp_todo=data_approval_dashboard"
+  },
+  "nwp_ecm_new": {
+    "title": "New Process",
+    "class": "nwp_ecm",
+    "action": "execute&nwp_action=ecm2&nwp_todo=start_new_process"
+  },
+  "nwp_ecm2": {
+    "title": "ECM Processes",
+    "class": "nwp_ecm",
+    "action": "execute&nwp_action=ecm2&nwp_todo=display_all_records_frontend"
+  },
+  "wk_view": {
+    "title": "Workflows",
+    "class": "nwp_workflow",
+    "action": "execute&nwp_action=workflow&nwp_todo=display_filtered_workflows2"
+  },
+  "wk_settings": {
+    "title": "Workflow Settings",
+    "class": "nwp_workflow",
+    "action": "execute&nwp_action=workflow_settings&nwp_todo=display_all_records_frontend"
+  },
+  "form-builder-new": {
+    "title": "New Form",
+    "class": "database_forms",
+    "development": true,
+    "action": "display_canvas&nwp_action=&nwp_todo="
+  },
+  "form-builder-view": {
+    "title": "View Forms",
+    "class": "database_forms",
+    "development": true,
+    "action": "display_all_records_frontend&nwp_action=&nwp_todo="
+  },
+  "ecm_bma_draft": {
+    "title": "Draft",
+    "full_title": "Draft - Board & Mgt. Staff",
+    "tooltip": "Draft - Board & Mgt. Staff",
+    "class": "ecm_top_management",
+    "action": "display_records_frontend&get_children=1&ptype=draft&nwp_action=&nwp_todo=",
+    "children": true
+  },
+  "ecm_bma_approved": {
+    "title": "Approved",
+    "full_title": "Approved - Board & Mgt. Staff",
+    "tooltip": "Approved - Board & Mgt. Staff",
+    "class": "ecm_top_management",
+    "action": "display_records_frontend&get_children=1&ptype=approved&nwp_action=&nwp_todo=",
+    "children": true
+  },
+  "ecm_bma_approval_w": {
+    "title": "Withdrawn",
+    "full_title": "Approval Withdrawn - Board & Mgt. Staff",
+    "tooltip": "Approved Withdrawn - Board & Mgt. Staff",
+    "class": "ecm_top_management",
+    "action": "display_records_frontend&get_children=1&ptype=approval_withdrawn&nwp_action=&nwp_todo=",
+    "children": true
+  },
+  "ecm_bma_rejected": {
+    "title": "Rejected",
+    "full_title": "Rejected - Board & Mgt. Staff",
+    "tooltip": "Rejected - Board & Mgt. Staff",
+    "class": "ecm_top_management",
+    "action": "display_records_frontend&get_children=1&ptype=rejected&nwp_action=&nwp_todo=",
+    "children": true
+  },
+  "ecm_er_draft": {
+    "title": "Draft",
+    "full_title": "Draft - Examination Report Library",
+    "tooltip": "Draft - Examination Report Library",
+    "class": "ecm_exam_report",
+    "action": "display_records_frontend&get_children=1&ptype=draft&nwp_action=&nwp_todo=",
+    "children": true
+  },
+  "ecm_er_reviewed": {
+    "title": "Reviewed",
+    "full_title": "Reviewed - Examination Report Library",
+    "tooltip": "Reviewed - Examination Report Library",
+    "class": "ecm_exam_report",
+    "action": "display_records_frontend&get_children=1&ptype=reviewed&nwp_action=&nwp_todo=",
+    "children": true
+  },
+  "ecm_er_authorized": {
+    "title": "Authorized",
+    "full_title": "Authorized - Examination Report Library",
+    "tooltip": "Authorized - Examination Report Library",
+    "class": "ecm_exam_report",
+    "action": "display_records_frontend&get_children=1&ptype=authorized&nwp_action=&nwp_todo=",
+    "children": true
+  },
+  "ecm_er_rejected": {
+    "title": "Rejected",
+    "full_title": "Rejected - Examination Report Library",
+    "tooltip": "Rejected - Examination Report Library",
+    "class": "ecm_exam_report",
+    "action": "display_records_frontend&get_children=1&ptype=rejected&nwp_action=&nwp_todo=",
+    "children": true
+  },
+  "ecm_er_unauthorized": {
+    "title": "Unauthorized",
+    "full_title": "Unauthorized - Examination Report Library",
+    "tooltip": "Unauthorized - Examination Report Library",
+    "class": "ecm_exam_report",
+    "action": "display_records_frontend&get_children=1&ptype=unauthorized&nwp_action=&nwp_todo=",
+    "children": true
+  },
+  "ecm_err_draft": {
+    "title": "Draft",
+    "full_title": "Draft - Exam. Report Request for Download",
+    "tooltip": "Draft - Exam. Report Request for Download",
+    "class": "ecm_exam_report_req",
+    "action": "display_records_frontend&get_children=1&ptype=draft&nwp_action=&nwp_todo=",
+    "children": true
+  },
+  "ecm_err_approved": {
+    "title": "Approved",
+    "full_title": "Approved - Exam. Report Request for Download",
+    "tooltip": "Approved - Exam. Report Request for Download",
+    "class": "ecm_exam_report_req",
+    "action": "display_records_frontend&get_children=1&ptype=approved&nwp_action=&nwp_todo=",
+    "children": true
+  },
+  "ecm_err_rejected": {
+    "title": "Rejected",
+    "full_title": "Rejected - Exam. Report Request for Download",
+    "tooltip": "Rejected - Exam. Report Request for Download",
+    "class": "ecm_exam_report_req",
+    "action": "display_records_frontend&get_children=1&ptype=rejected&nwp_action=&nwp_todo=",
+    "children": true
+  },
+  "ofid_reports_bb": {
+    "title": "Black Book",
+    "tooltip": "Black Book Report",
+    "prefix": "REPORT - ",
+    "class": "ecm_black_book",
+    "action": "display_records_frontend_report&get_children=1&nwp_action=&nwp_todo=",
+    "children": true
+  },
+  "ofid_reports_bba": {
+    "title": "Black Book History",
+    "full_title": "Black Book History",
+    "tooltip": "Black Book Report",
+    "prefix": "REPORT - ",
+    "class": "ecm_black_book",
+    "action": "display_records_frontend_report_all&get_children=1&nwp_action=&nwp_todo=",
+    "children": true
+  },
+  "ofid_reports_pen": {
+    "title": "Penalties",
+    "tooltip": "Penalties Report",
+    "prefix": "REPORT - ",
+    "class": "ecm_penalty_reg",
+    "action": "display_records_frontend_report&get_children=1&nwp_action=&nwp_todo=",
+    "children": true
+  },
+  "ofid_reports_an": {
+    "title": "Annual Report",
+    "tooltip": "Annual Report Filing",
+    "prefix": "REPORT - ",
+    "class": "ecm_annual_report_filing",
+    "action": "display_records_frontend_report&get_children=1&nwp_action=&nwp_todo="
+  },
+  "ofid_reports_li": {
+    "title": "License",
+    "tooltip": "License",
+    "class": "ecm_ofi_license",
+    "prefix": "REPORT - ",
+    "action": "display_records_frontend_report&get_children=1&nwp_action=&nwp_todo="
+  },
+  "ofid_reports_reg": {
+    "title": "Registration",
+    "tooltip": "Registration Report",
+    "prefix": "REPORT - ",
+    "class": "ecm_ofi_register",
+    "action": "display_records_frontend_report&get_children=1&nwp_action=&nwp_todo="
+  },
+  "ofid_reports_pp": {
+    "title": "Pending Process",
+    "tooltip": "Pending Process",
+    "prefix": "REPORT - ",
+    "class": "process",
+    "action": "display_records_frontend_report&get_children=1&status=pending&nwp_action=&nwp_todo="
+  },
+  "ofid_reports_cp": {
+    "title": "Completed Process",
+    "tooltip": "Completed Process",
+    "prefix": "REPORT - ",
+    "class": "process",
+    "action": "display_records_frontend_report&get_children=1&status=complete&nwp_action=&nwp_todo="
+  },
+  "ecm_bmar": {
+    "title": "Board & Mgt. Staff",
+    "action": "display_records_frontend_report_all&get_children=1&nwp_action=&nwp_todo=",
+    "full_title": "Board & Management Staff",
+    "tooltip": "Board & Management Staff",
+    "development": true,
+    "class": "ecm_top_management",
+    "children": true
+  },
+  "all_proc": {
+    "title": "All Process",
+    "tooltip": "All Process",
+    "class": "process",
+    "development": true,
+    "action": "display_all_records_frontend&get_children=1&nwp_action=&nwp_todo="
+  },
+  "set_li_mbbd": {
+    "title": "Black Book",
+    "tooltip": "Manage Black Book Data",
+    "class": "ecm_black_book",
+    "development": true,
+    "action": "display_all_records_frontend&get_children=1&nwp_action=&nwp_todo="
+  },
+  "set_li_lbbd": {
+    "title": "Load Black Book Data",
+    "tooltip": "Load Black Book Data",
+    "class": "ecm_black_book",
+    "development": true,
+    "action": "display_spreadsheet_view2&get_children=1&nwp_action=&nwp_todo="
+  },
+  "set_li_vaat": {
+    "title": "Audited Acc. Templates",
+    "tooltip": "View Audited Account Template",
+    "class": "audited_accounts_template",
+    "development": true,
+    "action": "display_all_records_frontend&get_children=1&nwp_action=&nwp_todo="
+  },
+  "set_li_vaac": {
+    "title": "Audited Acc. History",
+    "tooltip": "View Audited Account Computations",
+    "class": "audited_accounts_computation",
+    "development": true,
+    "action": "display_all_records_frontend&get_children=1&nwp_action=&nwp_todo="
+  },
+  "ecm_bma": {
+    "title": "Board & Mgt. Staff",
+    "action": "display_all_records_frontend&get_children=1&nwp_action=&nwp_todo=",
+    "full_title": "Board & Management Staff",
+    "tooltip": "Board & Management Staff",
+    "class": "ecm_top_management",
+    "development": true,
+    "children": true
+  },
+  "ecm_bmal": {
+    "title": "Load Board & Mgt. Staff",
+    "action": "display_spreadsheet_view2&get_children=1&nwp_action=&nwp_todo=",
+    "full_title": "Load Board & Management Staff",
+    "tooltip": "Load Board & Management Staff",
+    "development": true,
+    "class": "ecm_top_management"
+  },
+  "e_exam_report": {
+    "title": "Examination Report",
+    "tooltip": "Examination Report",
+    "action": "display_all_records_frontend&get_children=1&nwp_action=&nwp_todo=",
+    "class": "ecm_exam_report",
+    "development": true,
+    "children": true
+  },
+  "e_exam_report_req": {
+    "title": "Exam. Report Request",
+    "full_title": "Exam. Report Request for Download",
+    "tooltip": "Exam. Report Request for Download",
+    "action": "display_all_records_frontend&get_children=1&nwp_action=&nwp_todo=",
+    "class": "ecm_exam_report_req",
+    "development": true,
+    "children": true
+  },
+  "set_dept": {
+    "title": "Departments",
+    "tooltip": "Departments",
+    "class": "ecm_department",
+    "action": "display_all_records_frontend&get_children=1&nwp_action=&nwp_todo="
+  },
+  "set_group": {
+    "title": "Groups",
+    "tooltip": "Groups",
+    "class": "ecm_group",
+    "action": "display_all_records_frontend&get_children=1&nwp_action=&nwp_todo="
+  },
+  "set_team": {
+    "title": "Teams",
+    "tooltip": "Teams",
+    "class": "ecm_team",
+    "action": "display_all_records_frontend&get_children=1&nwp_action=&nwp_todo="
+  },
+  "set_access": {
+    "title": "Access Roles",
+    "tooltip": "Access Roles",
+    "class": "access_roles",
+    "action": "display_all_records_frontend&get_children=1&nwp_action=&nwp_todo="
+  },
+  "set_user_assign": {
+    "title": "User Assignment",
+    "tooltip": "User Assignment",
+    "class": "ecm_users_assign",
+    "action": "display_all_records_frontend&get_children=1&nwp_action=&nwp_todo="
+  },
+  "set_li_fi": {
+    "title": "Financial Institutions",
+    "tooltip": "Financial Institutions",
+    "class": "datatable_button",
+    "development": true,
+    "action": "display_all_records_frontend&get_children=1&nwp_action=&nwp_todo=&nwp_source=ecm_financial_institutions"
+  },
+  "set_li_states": {
+    "title": "States",
+    "tooltip": "States in Nigeria",
+    "development": true,
+    "class": "datatable_button",
+    "action": "display_all_records_frontend&get_children=1&nwp_action=&nwp_todo=&nwp_source=ecm_states"
+  },
+  "set_li_sanctions": {
+    "title": "Types of Sanctions",
+    "tooltip": "Types of Sanctions",
+	"development": true,
+    "class": "datatable_button",
+    "action": "display_all_records_frontend&get_children=1&nwp_action=&nwp_todo=&nwp_source=ecm_types_of_sanctions"
+  },
+  "set_li_rb": {
+    "title": "Reasons for Blacklisting",
+    "tooltip": "Reasons for Blacklisting",
+	"development": true,
+    "class": "datatable_button",
+    "action": "display_all_records_frontend&get_children=1&nwp_action=&nwp_todo=&nwp_source=ecm_reason_for_blacklisting"
+  },
+  "set_li_uid": {
+    "title": "Unique ID Types",
+    "tooltip": "Unique Identifier Types",
+	"development": true,
+    "class": "datatable_button",
+    "action": "display_all_records_frontend&get_children=1&nwp_action=&nwp_todo=&nwp_source=ecm_unique_identifier_type"
+  },
+  "set_li_ofi_location": {
+    "title": "OFI Location",
+    "tooltip": "OFI Location",
+	"development": true,
+    "class": "datatable_button",
+    "action": "display_all_records_frontend&get_children=1&nwp_action=&nwp_todo=&nwp_source=ecm_ofi_location"
+  },
+  "set_li_ofi_old_proposed_names": {
+    "title": "OFI Old Proposed Names",
+    "tooltip": "OFI Old Proposed Names",
+	"development": true,
+    "class": "datatable_button",
+    "action": "display_all_records_frontend&get_children=1&nwp_action=&nwp_todo=&nwp_source=ecm_ofi_old_proposed_names"
+  },
+  "set_li_appraisal_opinion": {
+    "title": "Appraisal Opinion",
+    "tooltip": "Appraisal Opinion",
+	"development": true,
+    "class": "datatable_button",
+    "action": "display_all_records_frontend&get_children=1&nwp_action=&nwp_todo=&nwp_source=ecm_appraisal_opinion"
+  },
+  "set_li_areas": {
+    "title": "Areas",
+    "tooltip": "Areas",
+	"development": true,
+    "class": "datatable_button",
+    "action": "display_all_records_frontend&get_children=1&nwp_action=&nwp_todo=&nwp_source=ecm_areas"
+  },
+  "set_li_closures": {
+    "title": "Closures",
+    "tooltip": "Closures",
+	"development": true,
+    "class": "datatable_button",
+    "action": "display_all_records_frontend&get_children=1&nwp_action=&nwp_todo=&nwp_source=ecm_closures"
+  },
+  "set_li_ofi_type": {
+    "title": "OFI Type",
+    "tooltip": "OFI Type",
+	"development": true,
+    "class": "datatable_button",
+    "action": "display_all_records_frontend&get_children=1&nwp_action=&nwp_todo=&nwp_source=ecm_ofi_type"
+  },
+  "set_li_location_type": {
+    "title": "Location Type",
+    "tooltip": "Location Type",
+	"development": true,
+    "class": "datatable_button",
+    "action": "display_all_records_frontend&get_children=1&nwp_action=&nwp_todo=&nwp_source=ecm_location_types"
+  },
+  "set_li_license_status": {
+    "title": "License Status",
+    "tooltip": "License Status",
+	"development": true,
+    "class": "datatable_button",
+    "action": "display_all_records_frontend&get_children=1&nwp_action=&nwp_todo=&nwp_source=ecm_license_status"
+  },
+  "set_li_auditors": {
+    "title": "Auditors",
+    "tooltip": "Auditors",
+	"development": true,
+    "class": "datatable_button",
+    "action": "display_all_records_frontend&get_children=1&nwp_action=&nwp_todo=&nwp_source=ecm_auditor"
+  },
+  "set_li_more_opts": {
+    "title": "More Options",
+    "tooltip": "More Options",
+    "class": "list_box_options",
+    "action": "display_all_records_frontend&get_children=1&nwp_action=&nwp_todo="
+  },
+  "portal_user": {
+    "title": "Portal Users",
+    "tooltip": "Portal Users",
+    "class": "datatable_button",
+    "action": "display_all_records_frontend&get_children=1&nwp_action=&nwp_todo=&nwp_source=ecm_portal_users"
+  },
+  "ecm_set": {
+    "title": "System Config",
+    "tooltip": "System Configuration",
+    "class": "datatable_button",
+    "action": "display_all_records_frontend&get_children=1&nwp_action=&nwp_todo=&nwp_source=ecm_settings"
+  },
+  "ecm_ca_z": {
+    "title": "Cash Advance Zones",
+    "tooltip": "Cash Advance Zones",
+	"class": "nwp_ecm",
+    "action": "execute&nwp_action=ecm_cash_advance_zone&nwp_todo=display_all_records_frontend"
+  },
+  "ecm_ca_r": {
+    "title": "Cash Advance Rates",
+    "tooltip": "Cash Advance Rates",
+	"class": "nwp_ecm",
+    "action": "execute&nwp_action=ecm_cash_advance_rate&nwp_todo=display_all_records_frontend"
+  },
+  "ecm_ca_t": {
+    "title": "Cash Advance Trip",
+    "tooltip": "Cash Advance Trip",
+	"class": "nwp_ecm",
+    "action": "execute&nwp_action=ecm_cash_advance_trip&nwp_todo=display_all_records_frontend"
+  },
+  "ecm_ca_kmc": {
+    "title": "Kilometer Chart",
+    "tooltip": "Kilometer Chart",
+	"class": "nwp_ecm",
+    "action": "execute&nwp_action=ecm_cash_advance_km_chart&nwp_todo=display_all_records_frontend"
+  },
+  "grade_level": {
+    "title": "Grade Level",
+    "tooltip": "Grade Level",
+	"class": "nwp_ecm",
+    "action": "execute&nwp_action=ecm_grade_level&nwp_todo=display_all_records_frontend"
+  },
+  "ecm_ca": {
+    "title": "Cash Advance",
+    "tooltip": "Cash Advance",
+	"class": "nwp_ecm",
+    "action": "execute&nwp_action=ecm_cash_advance&nwp_todo=display_all_records_frontend"
+  },
+  "view_audit": {
+    "title": "Audit Trail",
+    "tooltip": "Audit Trail",
+    "development": true,
+    "class": "audit",
+    "action": "display_audit_trail_analysis_view&get_children=1&nwp_action=&nwp_todo="
+  },
+  "ww_data": {
+    "title": "Workflow Log",
+    "tooltip": "Workflow Log",
+    "class": "datatable_button",
+    "action": "display_all_records_frontend&get_children=1&nwp_action=&nwp_todo=&nwp_source=ecm_workflow_log"
+  },
+  "em_data": {
+    "title": "Email Log",
+    "tooltip": "Email Log",
+    "class": "ecm_email_notification",
+    "action": "display_all_records_frontend&get_children=1&nwp_action=&nwp_todo="
+  }
+}

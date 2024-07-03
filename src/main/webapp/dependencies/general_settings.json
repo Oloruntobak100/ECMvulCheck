@@ -1,0 +1,85 @@
+{
+  "label": "General Settings",
+  "name": "general_settings",
+  "filter": {
+    "cash_advance": {
+      "fields": [
+        {
+        "name": "classname",
+        "condition": "=",
+        "value": "'cash_advance'"
+        }
+      ]
+    }
+  },
+  "fields": {
+    "key": "general_settings001",
+    "value": "general_settings002",
+    "description": "general_settings003",
+    "type": "general_settings004",
+    "classname": "general_settings005"
+  },
+  "labels": {
+    "general_settings001": {
+      "field_label": "Key",
+      "form_field": "text",
+      "required_field": "yes",
+      "default_appearance_in_table_fields": "show",
+      "display_position": "display-in-table-row",
+      "serial_number": "",
+      "field_identifier": "key"
+    },
+    "general_settings002": {
+      "field_label": "Value",
+      "form_field": "text",
+      "default_appearance_in_table_fields": "show",
+      "display_position": "display-in-table-row",
+      "serial_number": "",
+      "field_identifier": "value"
+    },
+    "general_settings003": {
+      "field_label": "Description",
+      "form_field": "textarea",
+      "required_field": "yes",
+      "default_appearance_in_table_fields": "show",
+      "display_position": "display-in-table-row",
+      "serial_number": "",
+      "field_identifier": "description"
+    },
+    "general_settings004": {
+      "field_label": "Type",
+      "form_field": "select",
+      "form_field_options": "get_form_field_types",
+      "default_appearance_in_table_fields": "show",
+      "display_position": "display-in-table-row",
+      "serial_number": "",
+      "field_identifier": "type"
+    },
+    "general_settings005": {
+      "field_label": "Class",
+      "form_field": "select",
+      "form_field_options": "get_class_names",
+      "default_appearance_in_table_fields": "show",
+      "display_position": "display-in-table-row",
+      "serial_number": "",
+      "field_identifier": "classname"
+    }
+  },
+  "form_order": [
+    "id",
+    "general_settings001",
+    "general_settings002",
+    "general_settings003",
+    "general_settings004",
+    "general_settings005",
+    "serial_num",
+    "creator_role",
+    "created_by",
+    "creation_date",
+    "modified_by",
+    "modification_date",
+    "ip_address",
+    "device_id",
+    "record_status"
+  ]
+}
